@@ -1,0 +1,6 @@
+@TaskRunner.Manager.API_HostAddress = http://localhost:5032
+
+GET {{TaskRunner.Manager.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
